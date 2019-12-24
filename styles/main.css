@@ -1,0 +1,507 @@
+body {
+  margin: 0;
+  font-size: 30px; }
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  position: absolute;
+  top: calc(50% - 252px);
+  left: calc(50% - 353.5px); }
+
+.calendar-28 :nth-child(-n+28) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-mon :first-child {
+  margin-left: 0px; }
+
+.calendar-28 :nth-child(1)::before {
+  content: "1"; }
+
+.calendar-28 :nth-child(2)::before {
+  content: "2"; }
+
+.calendar-28 :nth-child(3)::before {
+  content: "3"; }
+
+.calendar-28 :nth-child(4)::before {
+  content: "4"; }
+
+.calendar-28 :nth-child(5)::before {
+  content: "5"; }
+
+.calendar-28 :nth-child(6)::before {
+  content: "6"; }
+
+.calendar-28 :nth-child(7)::before {
+  content: "7"; }
+
+.calendar-28 :nth-child(8)::before {
+  content: "8"; }
+
+.calendar-28 :nth-child(9)::before {
+  content: "9"; }
+
+.calendar-28 :nth-child(10)::before {
+  content: "10"; }
+
+.calendar-28 :nth-child(11)::before {
+  content: "11"; }
+
+.calendar-28 :nth-child(12)::before {
+  content: "12"; }
+
+.calendar-28 :nth-child(13)::before {
+  content: "13"; }
+
+.calendar-28 :nth-child(14)::before {
+  content: "14"; }
+
+.calendar-28 :nth-child(15)::before {
+  content: "15"; }
+
+.calendar-28 :nth-child(16)::before {
+  content: "16"; }
+
+.calendar-28 :nth-child(17)::before {
+  content: "17"; }
+
+.calendar-28 :nth-child(18)::before {
+  content: "18"; }
+
+.calendar-28 :nth-child(19)::before {
+  content: "19"; }
+
+.calendar-28 :nth-child(20)::before {
+  content: "20"; }
+
+.calendar-28 :nth-child(21)::before {
+  content: "21"; }
+
+.calendar-28 :nth-child(22)::before {
+  content: "22"; }
+
+.calendar-28 :nth-child(23)::before {
+  content: "23"; }
+
+.calendar-28 :nth-child(24)::before {
+  content: "24"; }
+
+.calendar-28 :nth-child(25)::before {
+  content: "25"; }
+
+.calendar-28 :nth-child(26)::before {
+  content: "26"; }
+
+.calendar-28 :nth-child(27)::before {
+  content: "27"; }
+
+.calendar-28 :nth-child(28)::before {
+  content: "28"; }
+
+.calendar-29 :nth-child(-n+29) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-tue :first-child {
+  margin-left: 101px; }
+
+.calendar-29 :nth-child(1)::before {
+  content: "1"; }
+
+.calendar-29 :nth-child(2)::before {
+  content: "2"; }
+
+.calendar-29 :nth-child(3)::before {
+  content: "3"; }
+
+.calendar-29 :nth-child(4)::before {
+  content: "4"; }
+
+.calendar-29 :nth-child(5)::before {
+  content: "5"; }
+
+.calendar-29 :nth-child(6)::before {
+  content: "6"; }
+
+.calendar-29 :nth-child(7)::before {
+  content: "7"; }
+
+.calendar-29 :nth-child(8)::before {
+  content: "8"; }
+
+.calendar-29 :nth-child(9)::before {
+  content: "9"; }
+
+.calendar-29 :nth-child(10)::before {
+  content: "10"; }
+
+.calendar-29 :nth-child(11)::before {
+  content: "11"; }
+
+.calendar-29 :nth-child(12)::before {
+  content: "12"; }
+
+.calendar-29 :nth-child(13)::before {
+  content: "13"; }
+
+.calendar-29 :nth-child(14)::before {
+  content: "14"; }
+
+.calendar-29 :nth-child(15)::before {
+  content: "15"; }
+
+.calendar-29 :nth-child(16)::before {
+  content: "16"; }
+
+.calendar-29 :nth-child(17)::before {
+  content: "17"; }
+
+.calendar-29 :nth-child(18)::before {
+  content: "18"; }
+
+.calendar-29 :nth-child(19)::before {
+  content: "19"; }
+
+.calendar-29 :nth-child(20)::before {
+  content: "20"; }
+
+.calendar-29 :nth-child(21)::before {
+  content: "21"; }
+
+.calendar-29 :nth-child(22)::before {
+  content: "22"; }
+
+.calendar-29 :nth-child(23)::before {
+  content: "23"; }
+
+.calendar-29 :nth-child(24)::before {
+  content: "24"; }
+
+.calendar-29 :nth-child(25)::before {
+  content: "25"; }
+
+.calendar-29 :nth-child(26)::before {
+  content: "26"; }
+
+.calendar-29 :nth-child(27)::before {
+  content: "27"; }
+
+.calendar-29 :nth-child(28)::before {
+  content: "28"; }
+
+.calendar-29 :nth-child(29)::before {
+  content: "29"; }
+
+.calendar-30 :nth-child(-n+30) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-wed :first-child {
+  margin-left: 202px; }
+
+.calendar-30 :nth-child(1)::before {
+  content: "1"; }
+
+.calendar-30 :nth-child(2)::before {
+  content: "2"; }
+
+.calendar-30 :nth-child(3)::before {
+  content: "3"; }
+
+.calendar-30 :nth-child(4)::before {
+  content: "4"; }
+
+.calendar-30 :nth-child(5)::before {
+  content: "5"; }
+
+.calendar-30 :nth-child(6)::before {
+  content: "6"; }
+
+.calendar-30 :nth-child(7)::before {
+  content: "7"; }
+
+.calendar-30 :nth-child(8)::before {
+  content: "8"; }
+
+.calendar-30 :nth-child(9)::before {
+  content: "9"; }
+
+.calendar-30 :nth-child(10)::before {
+  content: "10"; }
+
+.calendar-30 :nth-child(11)::before {
+  content: "11"; }
+
+.calendar-30 :nth-child(12)::before {
+  content: "12"; }
+
+.calendar-30 :nth-child(13)::before {
+  content: "13"; }
+
+.calendar-30 :nth-child(14)::before {
+  content: "14"; }
+
+.calendar-30 :nth-child(15)::before {
+  content: "15"; }
+
+.calendar-30 :nth-child(16)::before {
+  content: "16"; }
+
+.calendar-30 :nth-child(17)::before {
+  content: "17"; }
+
+.calendar-30 :nth-child(18)::before {
+  content: "18"; }
+
+.calendar-30 :nth-child(19)::before {
+  content: "19"; }
+
+.calendar-30 :nth-child(20)::before {
+  content: "20"; }
+
+.calendar-30 :nth-child(21)::before {
+  content: "21"; }
+
+.calendar-30 :nth-child(22)::before {
+  content: "22"; }
+
+.calendar-30 :nth-child(23)::before {
+  content: "23"; }
+
+.calendar-30 :nth-child(24)::before {
+  content: "24"; }
+
+.calendar-30 :nth-child(25)::before {
+  content: "25"; }
+
+.calendar-30 :nth-child(26)::before {
+  content: "26"; }
+
+.calendar-30 :nth-child(27)::before {
+  content: "27"; }
+
+.calendar-30 :nth-child(28)::before {
+  content: "28"; }
+
+.calendar-30 :nth-child(29)::before {
+  content: "29"; }
+
+.calendar-30 :nth-child(30)::before {
+  content: "30"; }
+
+.calendar-31 :nth-child(-n+31) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-thu :first-child {
+  margin-left: 303px; }
+
+.calendar-31 :nth-child(1)::before {
+  content: "1"; }
+
+.calendar-31 :nth-child(2)::before {
+  content: "2"; }
+
+.calendar-31 :nth-child(3)::before {
+  content: "3"; }
+
+.calendar-31 :nth-child(4)::before {
+  content: "4"; }
+
+.calendar-31 :nth-child(5)::before {
+  content: "5"; }
+
+.calendar-31 :nth-child(6)::before {
+  content: "6"; }
+
+.calendar-31 :nth-child(7)::before {
+  content: "7"; }
+
+.calendar-31 :nth-child(8)::before {
+  content: "8"; }
+
+.calendar-31 :nth-child(9)::before {
+  content: "9"; }
+
+.calendar-31 :nth-child(10)::before {
+  content: "10"; }
+
+.calendar-31 :nth-child(11)::before {
+  content: "11"; }
+
+.calendar-31 :nth-child(12)::before {
+  content: "12"; }
+
+.calendar-31 :nth-child(13)::before {
+  content: "13"; }
+
+.calendar-31 :nth-child(14)::before {
+  content: "14"; }
+
+.calendar-31 :nth-child(15)::before {
+  content: "15"; }
+
+.calendar-31 :nth-child(16)::before {
+  content: "16"; }
+
+.calendar-31 :nth-child(17)::before {
+  content: "17"; }
+
+.calendar-31 :nth-child(18)::before {
+  content: "18"; }
+
+.calendar-31 :nth-child(19)::before {
+  content: "19"; }
+
+.calendar-31 :nth-child(20)::before {
+  content: "20"; }
+
+.calendar-31 :nth-child(21)::before {
+  content: "21"; }
+
+.calendar-31 :nth-child(22)::before {
+  content: "22"; }
+
+.calendar-31 :nth-child(23)::before {
+  content: "23"; }
+
+.calendar-31 :nth-child(24)::before {
+  content: "24"; }
+
+.calendar-31 :nth-child(25)::before {
+  content: "25"; }
+
+.calendar-31 :nth-child(26)::before {
+  content: "26"; }
+
+.calendar-31 :nth-child(27)::before {
+  content: "27"; }
+
+.calendar-31 :nth-child(28)::before {
+  content: "28"; }
+
+.calendar-31 :nth-child(29)::before {
+  content: "29"; }
+
+.calendar-31 :nth-child(30)::before {
+  content: "30"; }
+
+.calendar-31 :nth-child(31)::before {
+  content: "31"; }
+
+.none :nth-child(-n+0) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-fri :first-child {
+  margin-left: 404px; }
+
+.none :nth-child(1)::before {
+  content: "1"; }
+
+.none :nth-child(0)::before {
+  content: "0"; }
+
+.none :nth-child(-n+0) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-sat :first-child {
+  margin-left: 505px; }
+
+.none :nth-child(1)::before {
+  content: "1"; }
+
+.none :nth-child(0)::before {
+  content: "0"; }
+
+.none :nth-child(-n+0) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #eee;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.calendar-sun :first-child {
+  margin-left: 606px; }
+
+.none :nth-child(1)::before {
+  content: "1"; }
+
+.none :nth-child(0)::before {
+  content: "0"; }
+
+.calendar :nth-child(n):hover {
+  background-color: pink;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
