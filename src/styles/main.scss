@@ -1,3 +1,47 @@
 body {
   margin: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+$width-each-block: 100px;
+$height-each-block: 100px;
+$days: mon 0 28, tue 1 29, wed 2 30, thu 3 31, fri 4 0, sat 5 0, sun 6 0;
+
+.calendar {
+  display: flex;
+  min-width: 707px;
+  max-width: 707px;
+  flex-wrap: wrap;
+}
+
+@each $day, $count, $date in $days {
+  .calendar-#{$date} :nth-child(-n+#{$date}) {
+    width: $width-each-block;
+    height: $height-each-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-right: 1px;
+    text-align: center;
+    line-height: $height-each-block;
+    transition: all 0.5s ease-in-out;
+  }
+  .calendar-#{$day} :first-child {
+    margin-left: $count*(100 +1px);
+  }
+
+  @for $i from 1 through $date {
+    .calendar-#{$date} :nth-child(#{$i})::before {
+      content: "#{$i}" ;
+    }
+  }
+}
+
+.calendar :nth-child(n):hover {
+  background-color: pink;
+  transform: translateY(-20px);
+  cursor: pointer;
 }
