@@ -1,18 +1,25 @@
 body {
   margin: 0;
-  font-size: 30px; }
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh; }
 
 .calendar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 800px;
+  min-width: 707px;
+  max-width: 707px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: auto;
-  position: absolute;
-  top: calc(50% - 252px);
-  left: calc(50% - 353.5px); }
+      flex-wrap: wrap; }
 
 .calendar-28 :nth-child(-n+28) {
   width: 100px;
@@ -432,7 +439,7 @@ body {
 .calendar-31 :nth-child(31)::before {
   content: "31"; }
 
-.none :nth-child(-n+0) {
+.calendar-0 :nth-child(-n+0) {
   width: 100px;
   height: 100px;
   border: 1px solid black;
@@ -448,13 +455,13 @@ body {
 .calendar-fri :first-child {
   margin-left: 404px; }
 
-.none :nth-child(1)::before {
+.calendar-0 :nth-child(1)::before {
   content: "1"; }
 
-.none :nth-child(0)::before {
+.calendar-0 :nth-child(0)::before {
   content: "0"; }
 
-.none :nth-child(-n+0) {
+.calendar-0 :nth-child(-n+0) {
   width: 100px;
   height: 100px;
   border: 1px solid black;
@@ -470,13 +477,13 @@ body {
 .calendar-sat :first-child {
   margin-left: 505px; }
 
-.none :nth-child(1)::before {
+.calendar-0 :nth-child(1)::before {
   content: "1"; }
 
-.none :nth-child(0)::before {
+.calendar-0 :nth-child(0)::before {
   content: "0"; }
 
-.none :nth-child(-n+0) {
+.calendar-0 :nth-child(-n+0) {
   width: 100px;
   height: 100px;
   border: 1px solid black;
@@ -492,10 +499,10 @@ body {
 .calendar-sun :first-child {
   margin-left: 606px; }
 
-.none :nth-child(1)::before {
+.calendar-0 :nth-child(1)::before {
   content: "1"; }
 
-.none :nth-child(0)::before {
+.calendar-0 :nth-child(0)::before {
   content: "0"; }
 
 .calendar :nth-child(n):hover {
